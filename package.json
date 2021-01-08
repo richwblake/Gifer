@@ -1,0 +1,24 @@
+{
+  "name": "gifer",
+  "version": "1.0.0",
+  "description": "Simple dynamic gif loader from Giphy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richwblake/Gifer.git"
+  },
+  "keywords": [
+    "gif",
+    "search",
+    "utility"
+  ],
+  "author": "Wills Blake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richwblake/Gifer/issues"
+  },
+  "homepage": "https://github.com/richwblake/Gifer#readme"
+}
