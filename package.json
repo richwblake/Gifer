@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/richwblake/Gifer/issues"
   },
-  "homepage": "https://github.com/richwblake/Gifer#readme"
+  "homepage": "https://github.com/richwblake/Gifer#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
 }

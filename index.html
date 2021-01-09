@@ -7,7 +7,9 @@
 
     <title>Gifer</title>
     <link rel="stylesheet" href="css/main.css" />
-    <script src="index.js"></script>
+    <script src="javascripts/config.js"></script>
+    <script src="javascripts/api.js"></script>
+    <script src="javascripts/index.js"></script>
   </head>
 
   <body>
@@ -19,9 +21,13 @@
 
     <div id="search">
       <h2>Search for gifs below</h2>
-      <input type="text" placeholder="i.e. Whales">
+      <input type="text" id="search-bar" placeholder="i.e. Whales">
       <br>
-      <button type="button">Search</button>
+      <button id="submit-btn" type="button">Search</button>
+    </div>
+
+    <div id="gifs">
+
     </div>
     
     
