@@ -1,15 +1,14 @@
 const api = new API();
 
 document.addEventListener("DOMContentLoaded", () => {
-
-  addListenerToSubmitButton();
+  addListenerToTextField();
 })
 
-function addListenerToSubmitButton() {
-  const btn = document.getElementById('submit-btn');
-  btn.addEventListener('click', function() {
-    const searchContent = document.getElementById('search-bar').value;
-    api.search(searchContent)
+function addListenerToTextField() {
+  const textField = document.getElementById('search-bar');
+  textField.addEventListener('keyup', function(event) {
+    const searchContent = textField.value;
+    api.search(searchContent);
   })
 }
 
